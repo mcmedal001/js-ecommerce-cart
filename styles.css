@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+/* Header Area CSS */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 5px 0px; */
+}
+
+.nav-container {
+    box-shadow: 0px 2px 5px 1px #888888;
+    padding: 5px 0px;
+}
+
+nav li {
+    display: inline-block;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+nav li a {
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+}
+
+nav li a:hover {
+    list-style: none;
+    text-decoration: none;
+    color: #ff0000;
+}
+
+nav i {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* PAGE TITME SYLES */
+
+.page-title-container {
+    padding: 15px 50px;
+}
+
+.breadcrumbs {
+    color: #808080;
+    font-size: 12px;
+}
+
+.breadcrumbs .current-crumb {
+    color: #000000;
+    font-weight: 500;
+}
+
+/* PRODUCTS SECTION STYLES */
+
+.products-cart-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.products-container {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+ .single-product {
+    display: inline-block;
+    max-width: 300px;
+    min-width: 300px;
+    padding: 5px 5px;
+    max-height: 400px;
+    min-height: 400px;  
+    vertical-align: top;
+    margin: 15px 5px;
+    background-color: #d3d3d342;
+}
+
+
+.single-product img {
+    width: 300px;
+    text-align: center;
+}
+
+.single-product h4{
+    font-size: 20px;
+    line-height: 22px;
+    height: 60px;
+    font-weight: 300;
+}
+
+.single-product h4:hover {
+    color: #ff0000;
+    cursor: pointer;
+}
+
+.products-cart-container {
+    box-shadow: 0px -2px 5px 1px #888888;
+    padding: 5px 0px;
+}
+
+.price-add-to-cart-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-add-to-cart-container button {
+    padding: 3px 10px;
+}
+
+/* CART CONTAINER STYLES */
+
+.cart-container {
+    width: 480px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 15px 20px 0px 0px;
+    border: solid 0.05em rgba(128, 128, 128, 0.287);
+}
+
