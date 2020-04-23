@@ -23,11 +23,15 @@ let products = [
     }
 ]
 
+/* listen for clicks on each product's add to cart button */
+
 for(let i=0; i < addToCart.length; i++) {
     addToCart[i].addEventListener('click', () => {
         cartNumbers();
     })
 }
+
+/* adds cart clicks to local storage and also update same in the cart icon at the top */
 
 function cartNumbers() {
     let productNumbers = localStorage.getItem('cartNumbers');
